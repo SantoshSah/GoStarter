@@ -1,0 +1,30 @@
+{
+    "port": "9512",
+    "Auth": {
+      "accessToken": "5G8AXoY8ASASm943ZQb9iDmp8EWEVuvB",
+      "authTokenTtlSeconds": 120,
+      "jwtSecret": "N7QCg3fz89YmtsbMzSkMuMDsmuJxZD32",
+      "jwtTokenTtlMinutes": 10080
+    },
+    "database": {
+      "name": "TestGo_db",
+      "user": "root",
+      "host": "localhost",
+      "port": "3306",
+      "password": "santosh"
+    },
+    "frontEnd": {
+      "apiTimeout": 5000,
+      "logoutRedirectPath": "https://google.com",
+      "depositRedirectPath": "https://google.com",
+      "firstLinkRedirectPath": "https://google.com",
+      "secondLinkRedirectPath": "https://google.com",
+      "firstLinkName": "Settings",
+      "secondLinkName": "Deposit",
+      "invalidJwtRedirectPath": "https://google.com"
+    },
+    "debug": {
+      "log": true,
+      "db": false
+    }
+  }
