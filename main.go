@@ -3,7 +3,6 @@ package main
 import (
 	"GoStarter/config"
 	"GoStarter/controller"
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
@@ -11,9 +10,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("hello, world\n")
 	logrus.SetLevel(logrus.DebugLevel)
-	logrus.Error("Test")
 
 	// Disable Console Color
 	//gin.DisableConsoleColor()
